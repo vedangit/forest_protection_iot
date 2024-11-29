@@ -35,10 +35,6 @@ The frontend dashboard displays real-time sensor data and alerts on a user-frien
 - **Real-time Data Visualization**: Displays current temperature, humidity, and tilt data in an interactive format.
 - **Alerts**: Triggered when the temperature exceeds a defined threshold for fire detection or when tilt is detected, indicating potential tree cutting.
 
-### RFID Integration
-- **RFID for Access Control**: The RC522 RFID module is used to scan RFID tags. Only authorized personnel with valid RFID tags are allowed access to the monitored areas.
-- **Access Logging**: Each scan is logged, and an alert is generated if unauthorized access is attempted.
-
 ### Remote Monitoring
 Blynk is integrated for remote monitoring of sensor readings, allowing notifications for alerts (fire detection, tilt detection, unauthorized access). The system also logs events, such as high temperature, tilt detection, and RFID-based access control.
 
