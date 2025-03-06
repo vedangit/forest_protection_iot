@@ -1,6 +1,6 @@
 #define BLYNK_TEMPLATE_ID "TMPL3xCAeFFKo"
 #define BLYNK_TEMPLATE_NAME "IOT II"
-#define BLYNK_AUTH_TOKEN "DJdF6_8Ynyv-bRiZIlFvXcLXPJI8D9wf"
+#define BLYNK_AUTH_TOKEN " "
 #define BLYNK_PRINT Serial
 
 #include <SPI.h>
@@ -14,19 +14,15 @@
 
 MPU6050 mpu;
 
-// WiFi credentials
-// char ssid[] = "Thokal";
-// char pass[] = "manju2606";
-// char ssid[] = "MITWPU-GUEST";
-// char pass[] = "Wpuguest@9192";
 
-char ssid[] = "Galaxy A23E10C";
-char pass[] = "xlom3716";
-//const char* serverUrl = "http://192.168.0.105:3000/api/addSensorData"; // Your deployed URL
-const char* serverUrl = "http://192.168.164.251:3000/api/addSensorData"; // Your deployed URL
-const char* supabaseUrl ="https://hiaozxdlfgguwjqwoddb.supabase.co/rest/v1/sensor_data";
-const char* supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhpYW96eGRsZmdndXdqcXdvZGRiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzE0NjgxNDYsImV4cCI6MjA0NzA0NDE0Nn0.KwK59vQggxVfSBKrih51oNNA2XpZBsq6cmkG_GeCBF4";
-char auth[] = "DJdF6_8Ynyv-bRiZIlFvXcLXPJI8D9wf"; // Blynk Auth Token
+
+char ssid[] = " ";
+char pass[] = " ";
+
+const char* serverUrl = " "; // Your deployed URL
+const char* supabaseUrl =" ";
+const char* supabaseKey = " ";
+char auth[] = " "; // Blynk Auth Token
 
 // DHT sensor
 #define DHTPIN 2 // Digital pin for DHT
